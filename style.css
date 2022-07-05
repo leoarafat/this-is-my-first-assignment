@@ -60,6 +60,7 @@ position: relative;
 .donate-card{
     display: flex;
     text-align: center;
+    margin-bottom: 50px;
 }
 .card1{
     width: 100%;
@@ -88,3 +89,67 @@ position: relative;
 
 /* another donate section endes */
 
+/* about us section start here */
+.about-us{
+text-align: center;
+background-color: #ffa500;
+padding: 10px 0px;
+
+}
+.about-div{
+    display: flex;
+}
+.about-img{
+   width: 80%; 
+   border-radius: 10px;
+
+}
+.dotted{
+    border: dotted;
+    border-bottom: none;
+    width: 60px;
+}
+.sec1{
+    width: 50%;
+}
+.sec2{
+    width: 50%;
+}
+
+/* about us section ends here */
+
+
+/* update section start */
+
+.update-sec{
+    display: flex;
+   flex-direction: column;
+   text-align: center;
+  
+   align-items: center;
+}
+.update-description{
+    width: 50%;
+}
+.update-sending{
+    width: 50%;
+}
+
+.input-div{
+    background-color: hsl(0, 0%, 30%);
+    width: 100%;
+   padding: 80px 0px;
+   
+}
+.email-style{
+border: none;
+padding: 10px;
+background-color: rgb(240, 240, 240);
+border-radius: 5px;
+}
+.button{
+border: none;
+padding: 10px;
+background-color: red;
+border-radius: 5px;
+}
