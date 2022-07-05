@@ -1,0 +1,90 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header section start here */
+header{
+    background-image: url(images/donation1.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   text-align: center;
+   color: white;
+position: relative;
+ margin-bottom: 50px; 
+}
+.banner-section{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.btn{
+    text-decoration: none;
+    background-color: tomato;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+}
+/* header section ends here */
+
+/* donate section start here */
+.donate-section{
+    text-align: center;
+}
+.donated{
+    display: flex;
+    justify-content: space-evenly;
+}
+.tk-style{
+   border: 1px solid red;
+   background-color: hsl(0, 100%, 100%);
+    padding: 10px;
+    
+    border-radius: 5px;
+}
+.an{
+    border: none;
+}
+/* donate section start here */
+
+/* another donate section start */
+.donate-plan-sec{
+    text-align: center;
+    margin-bottom: 30px;
+  
+}
+.donate-card{
+    display: flex;
+    text-align: center;
+}
+.card1{
+    width: 100%;
+    margin-left: 20px;
+    box-shadow: 10px 10px 30px gray;
+    padding: 40px 5px;
+    background-color: #ff0000;
+    border-radius: 5px;
+}
+.card2{
+    width: 100%;
+    margin-left: 20px;
+    box-shadow: 10px 10px 30px gray;
+    padding: 40px 5px;
+    background-color: #3cb371;
+    border-radius: 5px;
+}
+    
+.card3{
+     width: 100%;
+     margin-left: 20px;
+     box-shadow: 10px 10px 30px gray;
+     background-color: #6a5acd;
+     border-radius: 5px;
+     padding: 40px 5px;}
+
+/* another donate section endes */
+
